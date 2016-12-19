@@ -1,0 +1,31 @@
+
+
+{"bundle":{
+	"paths":[
+        {
+            "id":1,
+            "name":"Villalobos",
+            "places": {
+                "namePOI":"Stubbe",
+				"infoPOI":"Information",
+				"imagePOI":"url till bilden",
+				"radiusPOI":5,
+                "positionPOI":{12,26},
+                "mediaPOI":[{"url till bilden", "bilden1"},
+							{"url till bilden", "bilden2"}
+							]
+            }
+        },
+        {
+            "id":2,
+            "name":"Jones",
+            "places": {
+                "namePOI":"April",
+                "polyline":28,
+                "POIId":2010
+            }
+        }
+
+		]
+	}
+}
