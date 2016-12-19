@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     <title>JSON Sample</title>
 </head>
 <body>
@@ -10,10 +11,13 @@
     <script>
   $.getJSON('content.json', function(data) {
         var output="<ul>";
-        for (var i in data.bundle.paths) {
-            output+="<li>" + data.bundle.paths[i].id + " " + data.bundle.paths[i].name + "--" 
-			+ data.bundle.paths[i].places.namePOI + "--" + data.bundle.paths[i].places.infoPOI + "--" 
-			+ data.bundle.paths[i].places.imagePOI +"</li>";
+        for (var i in data.app.bundle.paths) {
+            output+="<li>" + data.app.bundle.paths[i].id + " " + data.app.bundle.paths[i].name + "--" 
+			+ data.app.bundle.paths[i].places.namePOI + "--" + data.app.bundle.paths[i].places.infoPOI + "--" 
+			+ data.app.bundle.paths[i].places.imagePOI + "--" 
+			+ data.app.bundle.paths[i].places.radiusPOI + "--" 
+			+ data.app.bundle.paths[i].places.positionPOI + "--" 
+			+ data.app.bundle.paths[i].places.mediaPOI + "</li>";
         }
 
         output+="</ul>";
