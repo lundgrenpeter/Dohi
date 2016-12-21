@@ -3,7 +3,7 @@ Programming assignment
 
 ## Getting started
 Download project as a .zip to test it out on your local machine. 
-[Demo](www.peter-lundgren.se/test/api)
+[Demo](https://www.peter-lundgren.se/test/api)
 
 ## Requirements
 jQuery 1.10.2 is included in the project, otherwise you can get it [Here](https://jquery.com/)
@@ -19,4 +19,4 @@ https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css
 * css/images/
 
 ## Author
-[Peter Lundgren](www.peter-lundgren.se)
+[Peter Lundgren](https://www.peter-lundgren.se)
