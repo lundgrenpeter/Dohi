@@ -5,54 +5,54 @@
 		"paths":[
 			{
             "id":1,
-            "name":"Villalobos",
+            "name":"Easy trail",
             "places": {
                 "namePOI":"Stubbe",
-				"infoPOI":"Information",
+				"infoPOI":"Lorem ipsum dolor sit amet, quot tractatos cum id, te habemus consequat quaerendum est. ",
 				"imagePOI":"url till bilden",
 				"radiusPOI":5,
-                "positionPOI":12,
+                "positionPOI":16,
                 "mediaPOI":[
-				"vk","bilden1","url till bilden","bilden2"]
+				"länk","bilden1","länk","bilden2"]
             }
         },
         {
             "id":2,
-            "name":"Jones",
+            "name":"Forest",
             "places": {
-                "namePOI":"April",
-                "infoPOI":"Information",
+                "namePOI":"Träd",
+                "infoPOI":"Ad duo utinam option scribentur, veritus alienum temporibus eum id. Ex mei eius placerat",
 				"imagePOI":"url till bilden",
-				"radiusPOI":5,
-                "positionPOI":12,
+				"radiusPOI":8,
+                "positionPOI":83,
                 "mediaPOI":[
-				"vk","bilden1","url till bilden","bilden2"]
+				"länk","bilden1","länk","bilden2"]
             }
         },
 		{
             "id":3,
-            "name":"Jones",
+            "name":"Riverside",
             "places": {
-                "namePOI":"April",
-                "infoPOI":"Information",
+                "namePOI":"Park",
+                "infoPOI":"Eos in invidunt interesset, eros aeque electram ea sed.",
 				"imagePOI":"url till bilden",
-				"radiusPOI":5,
-                "positionPOI":12,
+				"radiusPOI":34,
+                "positionPOI":24,
                 "mediaPOI":[
-				"vk","bilden1","url till bilden","bilden2"]
+				"länk","bilden1","länk","bilden2"]
             }
         },
 		{
             "id":4,
-            "name":"Jones",
+            "name":"Dense",
             "places": {
-                "namePOI":"April",
-                "infoPOI":"Information",
+                "namePOI":"Sten",
+                "infoPOI":"Cu sed nihil laudem, ea vivendo vulputate nec. At vix fuisset consulatu",
 				"imagePOI":"url till bilden",
-				"radiusPOI":5,
-                "positionPOI":12,
+				"radiusPOI":76,
+                "positionPOI":89,
                 "mediaPOI":[
-				"vk","bilden1","url till bilden","bilden2"]
+				"länk","bilden1","länk","bilden2"]
             }
         }
 		]
