@@ -4,52 +4,16 @@
     <meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
     <title>Web API</title>
 </head>
 <body>
    
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 startarea">
-				<h2>Hiking trails</h2>
-				<button type="button" class="btn btn-default" id="PathsButton">Paths</button>
-				<button type="button" class="btn btn-default" id="PlacesButton">Places</button>
-				<div id="placeholder"></div>
-				<div id="placeholder2"></div>
-				<div id="placeholder3"></div>
-				<div id="placeholder4"></div>
-			</div>
-		</div>
+	<div class="container-fluid">
+		<h2 class="headline">Hiking trails</h2>
+		<div id="placeholder"></div>
 	</div>
-    <script>
-  
-  
-   $(document).ready(function(){
-    
-       $.getJSON('content.json', function(data) {
-        var pathsOutput="<ul>";
-        for (var i in data.app.bundle.paths) {
-            pathsOutput+="<li>" + "<button class='btn btn-default dropdown'>" + data.app.bundle.paths[i].id + " "  + data.app.bundle.paths[i].name + "</button>" +"</li>"
-		}
-		 pathsOutput+="</ul>";
-        document.getElementById("placeholder").innerHTML=pathsOutput;
-    });
-
-	$('#PlacesButton').click(function(){
-       $.getJSON('content.json', function(data) {
-        var placesOutput="<ul>";
-        for (var i in data.app.bundle.paths) {
-            placesOutput+="<li>" + data.app.bundle.paths[i].places.namePOI + "</li>"
-		}
-		 placesOutput+="</ul>";
-        document.getElementById("placeholder2").innerHTML=placesOutput;
-    });
- });
-});
-    </script>
-	
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
